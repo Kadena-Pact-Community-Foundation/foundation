@@ -14,19 +14,19 @@ By participating, you agree to uphold these standards.
 
 ## 1. Our Values
 
-### **Respect**
+### Respect
 Treat everyone with courtesy. Healthy debate is encouraged, but personal attacks or dismissive behavior is not.
 
-### **Inclusivity**
+### Inclusivity
 We welcome individuals from all backgrounds, regardless of experience level, identity, or perspective.
 
-### **Transparency**
+### Transparency
 We strive to communicate openly, share knowledge freely, and collaborate in good faith.
 
-### **Safety**
+### Safety
 We provide a community where people feel comfortable asking questions, contributing, and learning.
 
-### **Mission Alignment**
+### Mission Alignment
 Contributions should support the Foundation’s goal:
 > *To make it easy and safe for businesses to start building on Kadena.*
 

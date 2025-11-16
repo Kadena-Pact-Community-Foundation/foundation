@@ -1,0 +1,98 @@
+name: Sync Wiki to Pages
+
+on:
+  # Run when Wiki is updated (GitHub sends a gollum event)
+  gollum:
+  # Allow manual triggering
+  workflow_dispatch:
+  # Run on push to main branch (to keep in sync)
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Clone Wiki repository
+        run: |
+          git clone https://github.com/${{ github.repository }}.wiki.git wiki-repo
+      
+      - name: Copy Wiki content to docs
+        run: |
+          # Copy all markdown files from Wiki to docs
+          cp wiki-repo/*.md docs/ || true
+          
+          # Rename Home.md to be included in navigation
+          if [ -f "docs/Home.md" ]; then
+            mv docs/Home.md docs/wiki-home.md
+          fi
+      
+      - name: Transform Wiki links for Pages
+        run: |
+          # Transform Wiki-style links to Pages-compatible links
+          # Wiki links are in format [Text](PageName)
+          # We need to convert them to [Text](PageName.md) for GitHub Pages
+          
+          cd docs
+          for file in *.md; do
+            if [ -f "$file" ]; then
+              # Replace Wiki-style links with .md extension if not already present
+              # This handles links like [About](About) -> [About](About.md)
+              # First pass: handles most cases
+              sed -i -E 's/\]\(([A-Za-z0-9-]+)\)([^.]|$)/](\1.md)\2/g' "$file"
+              # Second pass: handles links at end of sentence with period
+              sed -i -E 's/\]\(([A-Za-z0-9-]+)\)\./](\1.md)./g' "$file"
+              # Fix Home.md references to wiki-home.md
+              sed -i 's/\[Home\](Home\.md)/[Home](wiki-home.md)/g' "$file"
+            fi
+          done
+      
+      - name: Update docs index with Wiki links
+        run: |
+          cat > docs/index.md << 'EOF'
+          # Kadena Pact Community Foundation
+
+          Welcome. This is the official GitHub Pages site for our community foundation.
+
+          ## Mission
+          Make it easy and safe for businesses to start building on Kadena.
+
+          ## Vision
+          A thriving Kadena ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
+
+          ## Wiki Content
+          - [Home](wiki-home.md)
+          - [About](About.md)
+          - [Contribute](Contribute.md)
+          - [Code of Conduct](Code-of-Conduct.md)
+          - [Roadmap](Roadmap.md)
+
+          ## Resources
+          - [GitHub Repository](https://github.com/Kadena-Pact-Community-Foundation/foundation)
+          - [Wiki](https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki)
+          - [Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions)
+          EOF
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Wiki content to Pages [automated]"
+            git push
+          fi

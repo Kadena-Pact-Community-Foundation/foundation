@@ -3,16 +3,11 @@
 Welcome! Your contributions help the Kadena Pact Community Foundation grow and improve. Whether you are a developer, auditor, or writer, there are many ways to participate.
 
 ## Ways to Contribute
-1. **Submit Issues**
-   - Report bugs, suggest new features, or propose improvements.
-2. **Edit or Add Wiki Pages**
-   - Improve documentation or create new guides for contributors and adopters.
-3. **Participate in Audits**
-   - Review Pact smart contracts and provide feedback to ensure security and quality.
-4. **Create Templates or Starter Packs**
-   - Help businesses get started faster with reusable contracts and blueprints.
-5. **Engage in Discussions**
-   - Join [GitHub Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions) to share ideas and ask questions.
+1. **Submit Issues** – Report bugs, suggest new features, or propose improvements.
+2. **Edit or Add Docs/Wiki Pages** – Improve documentation or create new guides for contributors and adopters.
+3. **Participate in Audits** – Review Pact smart contracts and provide feedback to ensure security and quality.
+4. **Create Templates or Starter Packs** – Help businesses get started faster with reusable contracts and blueprints.
+5. **Engage in Discussions** – Join [GitHub Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions) to share ideas and ask questions.
 
 ## Contribution Guidelines
 - **Fork and Clone:** Work on your local copy of the repository.
@@ -23,14 +18,14 @@ Welcome! Your contributions help the Kadena Pact Community Foundation grow and i
 
 ## Code of Conduct
 - Be respectful, inclusive, and collaborative.
-- All discussions and contributions should follow the [Foundation Code of Conduct](Code-of-Conduct).
+- All discussions and contributions should follow the [Foundation Code of Conduct](Code-of-Conduct.md).
 
 ## Quick Links
-- [Home](Home)
-- [About](About)
-- [Roadmap](Roadmap)
-- [Contact / Community](Contact)
+- [Home](Home.md)
+- [About](About.md)
+- [Roadmap](Roadmap.md)
+- [Code of Conduct](Code-of-Conduct.md)
 
 ---
 
-*Thank you for helping us make it easy and safe for businesses to build on Kadena!* 
+*Thank you for helping us make it easy and safe for businesses to build on Kadena!*
