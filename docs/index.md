@@ -2,6 +2,10 @@
 
 Welcome. This is the official GitHub Pages site for our community foundation.
 
+# Kadena Pact Community Foundation
+
+Welcome. This is the official GitHub Pages site for our community foundation.
+
 ## Mission
 Make it easy and safe for businesses to start building on Kadena.
 
@@ -14,6 +18,10 @@ A thriving Kadena ecosystem where new and existing businesses can launch confide
 - [Contribute](Contribute)
 - [Roadmap](Roadmap)
 - [Code of Conduct](Code-of-Conduct)
+# Kadena Pact Community Foundation
+
+Welcome. This is the official GitHub Pages site for our community foundation.
+
 # Kadena Pact Community Foundation
 
 Welcome. This is the official GitHub Pages site for our community foundation.
