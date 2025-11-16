@@ -1,0 +1,6 @@
+title: Kadena Pact Community Foundation
+description: Making it easy and safe for businesses to start building on Kadena
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
