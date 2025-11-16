@@ -1,7 +1,9 @@
 # Kadena Pact Community Foundation
 
+Welcome. This repository is the front door for our community work on Kadena smart contracts and tooling.
+
 ## Mission
-To make it easy and safe for businesses to start building on Kadena.
+Make it easy and safe for businesses to start building on Kadena.
 
 ## Vision
 A thriving Kadena ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
