@@ -1,6 +1,5 @@
----
 name: General question
-about: Ask a general question
+about: Ask a question about our docs, process, or roadmap
 labels: question
 ---
 
@@ -9,5 +8,8 @@ labels: question
 ## Question
 State your question.
 
+What context would help us answer quickly (links, examples)?
+
 ## Links
-- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Guidelines
+- Mission/Vision: See README
+- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Contribute

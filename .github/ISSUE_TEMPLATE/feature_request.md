@@ -1,6 +1,5 @@
----
 name: Feature request
-about: Suggest a new capability or improvement
+about: Suggest a new capability or improvement aligned with our mission
 labels: enhancement
 ---
 
@@ -9,9 +8,12 @@ labels: enhancement
 ## Description
 Describe the feature and the problem it solves.
 
+How does this help make it easy and safe for businesses to start building on Kadena?
+
 ## Checklist
 - [ ] Aligns with mission and vision
 - [ ] Clear scope and outcome
 
 ## Links
-- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Guidelines
+- Mission/Vision: See README
+- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Contribute
