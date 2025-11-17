@@ -1,14 +1,8 @@
-name: Sync Wiki to Docs
+name: Sync Wiki to Docs (PR-based)
 
 on:
-  # Run when Wiki is updated (GitHub sends a gollum event)
-  gollum:
-  # Allow manual triggering
+  # Manual only to avoid org policy blocking PR creation
   workflow_dispatch:
-  # Run on push to main branch (to keep in sync)
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -115,4 +109,4 @@ jobs:
           base: main
           labels: documentation, automation
           delete-branch: true
-          token: ${{ github.token }}
+          
