@@ -115,4 +115,4 @@ jobs:
           base: main
           labels: documentation, automation
           delete-branch: true
-          token: ${{ secrets.ACTIONS_BOT_TOKEN }}
+          token: ${{ github.token }}
