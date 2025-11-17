@@ -1,5 +1,17 @@
-# Pull Request Checklist
-- [ ] Describes changes clearly
-- [ ] References related issues
+## Summary
+Briefly describe what this PR changes and why.
+
+## Related Issue
+Link to the related issue: #
+
+## Checklist
+- [ ] Aligns with our mission (make it easy and safe to build on Kadena)
+- [ ] Clear description and scope
+- [ ] Documentation updated (if needed)
+- [ ] Tests or manual verification steps (if applicable)
 - [ ] Follows contribution guidelines
-- [ ] Updates Wiki if necessary
+
+## Contributor Confirmation
+By submitting this PR, I confirm that:
+- [ ] I have reviewed my changes for clarity and correctness
+- [ ] I am available to address review feedback
