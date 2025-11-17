@@ -6,7 +6,7 @@ Welcome. This is the official GitHub Pages site for our community foundation.
 Make it easy and safe for businesses to start building on Kadena.
 
 ## Vision
-A Kadena environment where businesses start strong, using proven Pact contracts that are safe, reliable, and ready to deploy.
+A thriving Kadena ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
 
 ## Wiki Content
 - [Home](wiki-home.md)
@@ -14,7 +14,6 @@ A Kadena environment where businesses start strong, using proven Pact contracts 
 - [Contribute](Contribute.md)
 - [Code of Conduct](Code-of-Conduct.md)
 - [Roadmap](Roadmap.md)
-- [Contact](Contact.md)
 
 ## Resources
 - [GitHub Repository](https://github.com/Kadena-Pact-Community-Foundation/foundation)
