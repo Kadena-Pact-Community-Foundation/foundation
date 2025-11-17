@@ -14,7 +14,7 @@ A Kadena environment where businesses start strong, using proven Pact contracts 
 - [Contribute](Contribute.md)
 - [Code of Conduct](Code-of-Conduct.md)
 - [Roadmap](Roadmap.md)
-- [Contact](Contact.md)
+- [Contact / Community](Contact.md)
 
 ## Resources
 - [GitHub Repository](https://github.com/Kadena-Pact-Community-Foundation/foundation)
