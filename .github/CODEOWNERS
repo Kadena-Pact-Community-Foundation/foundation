@@ -1,2 +1,10 @@
-# All Wiki and Pages content
-* @DaisukeFlowers
+## CODEOWNERS for Wiki and Pages
+# GitHub Pages content (served from docs/)
+/docs/** @DaisukeFlowers
+
+# Pages sync workflow
+/.github/workflows/wiki-sync.yml @DaisukeFlowers
+
+# Optional: top-level Pages index and mapping file (redundant due to /docs/**)
+/docs/index.md @DaisukeFlowers
+/docs/wiki-home.md @DaisukeFlowers
