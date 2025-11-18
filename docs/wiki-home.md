@@ -4,7 +4,7 @@
 **To make it easy and safe for businesses to start building on Kadena.**
 
 ## Vision
-**A Kadena environment where businesses start strong, using proven open source Pact contracts that are safe, reliable, and ready to deploy.**
+**A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.**
 
 ---
 
