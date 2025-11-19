@@ -25,6 +25,9 @@ jobs:
       
       - name: Clone Wiki repository
         run: |
+          # If the wiki repo does not exist, skip sync
+          set -e
+          git ls-remote "https://github.com/${{ github.repository }}.wiki.git" >/dev/null 2>&1 || { echo "No wiki repository found for ${GITHUB_REPOSITORY}; skipping sync."; exit 0; }
           git clone https://github.com/${{ github.repository }}.wiki.git wiki-repo
       
       - name: Copy Wiki content to docs
@@ -59,8 +62,8 @@ jobs:
       
       - name: Update docs index with Wiki links
         run: |
-          cat > docs/index.md << 'EOF'
-          # Kadena Pact Community Foundation
+          cat > docs/index.md << EOF
+          # ${GITHUB_REPOSITORY_OWNER}
 
           Welcome. This is the official GitHub Pages site for our community foundation.
 
@@ -79,9 +82,9 @@ jobs:
           - [Contact / Community](Contact.md)
 
           ## Resources
-          - [GitHub Repository](https://github.com/Kadena-Pact-Community-Foundation/foundation)
-          - [Wiki](https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki)
-          - [Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions)
+          - [GitHub Repository](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/})
+          - [Wiki](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/}/wiki)
+          - [Discussions](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/}/discussions)
           EOF
       
       - name: Commit and push changes to sync branch
