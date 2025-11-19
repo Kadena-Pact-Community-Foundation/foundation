@@ -1,8 +1,8 @@
-# Contributing to the Kadena Pact Community Foundation
+# Contributing to the Pact Community Organization
 
 First off, thank you for considering contributing! It's people like you that make the Kadena ecosystem a great place. Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop on Kadena.
 
-This document provides guidelines for contributing to the Kadena Pact Community Foundation's projects.
+This document provides guidelines for contributing to the Pact Community Organization's projects.
 
 ## Code of Conduct
 
@@ -16,7 +16,7 @@ To help you find the right place for your contribution, here is a high-level ove
     This is our central repository. It contains our mission, vision, governance documents, and general community guidelines. If you want to contribute to the foundation's principles, propose a change to our governance, or improve our general documentation, this is the place to start.
 
 *   **[Kadena-Pact-Community-Foundation/kadena-community-website](https://github.com/Kadena-Pact-Community-Foundation/kadena-community-website)**
-    This repository contains the source code for our public-facing website, [kadena-community.org](https://kadena-community.org). Contributions here are focused on web development, UI/UX improvements, fixing bugs on the site, or updating website content.
+    This repository contains the source code for our public-facing website, [pact-community.org](https://pact-community.org). Contributions here are focused on web development, UI/UX improvements, fixing bugs on the site, or updating website content.
 
 ## How Can I Contribute?
 

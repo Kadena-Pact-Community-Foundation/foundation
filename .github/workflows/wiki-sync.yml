@@ -57,7 +57,7 @@ jobs:
       - name: Update docs index with Wiki links
         run: |
           cat > docs/index.md << 'EOF'
-          # Kadena Pact Community Foundation
+          # Pact Community Organization
 
           Welcome. This is the official GitHub Pages site for our community foundation.
 

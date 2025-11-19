@@ -1,6 +1,6 @@
 # How to Contribute
 
-Welcome! Your contributions help the Kadena Pact Community Foundation grow and improve. Whether you are a developer, auditor, or writer, there are many ways to participate.
+Welcome! Your contributions help the Pact Community Organization grow and improve. Whether you are a developer, auditor, or writer, there are many ways to participate.
 
 ## Ways to Contribute
 1. **Submit Issues**
