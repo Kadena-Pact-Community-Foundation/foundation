@@ -1,11 +1,11 @@
-# About the Pact Community Organization
+# About the Kadena Pact Community Foundation
 
 > Mission: Make it easy and safe for businesses to start building on Kadena.
 >
-> Vision: A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
+> Vision: A Kadena environment where businesses start strong, using proven Pact contracts that are safe, reliable, and ready to deploy.
 
 ## Who We Are
-The Pact Community Organization is a **community-led, open-source initiative** focused on supporting businesses and developers building on the Kadena blockchain.  
+The Kadena Pact Community Foundation is a **community-led, open-source initiative** focused on supporting businesses and developers building on the Kadena blockchain.  
 We aim to make it **easy, safe, and efficient** to start using Pact smart contracts by providing guidance, documentation, and curated resources.
 
 ## What We Do
