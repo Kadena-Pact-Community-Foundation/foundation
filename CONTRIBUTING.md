@@ -1,6 +1,11 @@
 # Contributing to the Pact Community Organization
 
-First off, thank you for considering contributing! It's people like you that make the Kadena ecosystem a great place. Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop on Kadena.
+<<<<<<< HEAD
+<<<<<<< HEAD
+First off, thank you for considering contributing! Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop with Pact.
+=======
+First off, thank you for considering contributing! It's people like you that make the Pact ecosystem a great place. Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop with Pact.
+>>>>>>> origin/chore/point-docs-to-pact-5
 
 This document provides guidelines for contributing to the Pact Community Organization's projects.
 
@@ -15,7 +20,7 @@ To help you find the right place for your contribution, here is a high-level ove
 *   **[Pact-Community-Organization/foundation](https://github.com/Pact-Community-Organization/foundation)**
     This is our central repository. It contains our mission, vision, governance documents, and general community guidelines. If you want to contribute to the foundation's principles, propose a change to our governance, or improve our general documentation, this is the place to start.
 
-*   **[Pact-Community-Organization/kadena-community-website](https://github.com/Pact-Community-Organization/kadena-community-website)**
+*   **[Pact Community website](https://github.com/Pact-Community-Organization/website)**
     This repository contains the source code for our public-facing website, [pact-community.org](https://pact-community.org). Contributions here are focused on web development, UI/UX improvements, fixing bugs on the site, or updating website content.
 
 ## How Can I Contribute?
@@ -49,4 +54,9 @@ If you are looking for a place to start, check for issues tagged with `good firs
 
 ## Any Questions?
 
-If you have any questions, feel free to join our [Kadena Discord Server](https://discord.gg/kadena) and ask in the relevant channels. We're here to help!
+<<<<<<< HEAD
+<<<<<<< HEAD
+If you have any questions, start with our [GitHub Discussions](https://github.com/Pact-Community-Organization/foundation/discussions) or check the `README.md` for community channels and contact points. We're here to help!
+=======
+If you have any questions, feel free to join our [Community Discord](https://discord.gg/kadena) and ask in the relevant channels. We're here to help!
+>>>>>>> origin/chore/point-docs-to-pact-5

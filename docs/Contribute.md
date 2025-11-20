@@ -33,4 +33,4 @@ Welcome! Your contributions help the Pact Community Organization grow and improv
 
 ---
 
-*Thank you for helping us make it easy and safe for businesses to build on Kadena!*
+*Thank you for helping us make it easy and safe for businesses to build with Pact!* 

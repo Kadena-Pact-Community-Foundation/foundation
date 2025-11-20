@@ -8,7 +8,7 @@ labels: enhancement
 ## Description
 Describe the feature and the problem it solves.
 
-How does this help make it easy and safe for businesses to start building on Kadena?
+How does this help make it easy and safe for businesses to start building with Pact?
 
 ## Checklist
 - [ ] Aligns with mission and vision

@@ -54,7 +54,7 @@ This roadmap outlines the key milestones and priorities for the Pact Community O
 ---
 
 ## **Key Principles**
-- **Mission-Driven:** Every task aligns with “making it easy and safe for businesses to start building on Kadena.”
+- **Mission-Driven:** Every task aligns with “making it easy and safe for businesses to start building with Pact.”
 - **Minimal Viable Foundation:** Focus on documentation, community onboarding, and governance first.
 - **Iterative Growth:** Build incrementally and encourage community participation from the start.
 - **Transparency:** All progress, updates, and decisions are public and accessible.

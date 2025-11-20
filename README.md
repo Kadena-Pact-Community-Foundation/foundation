@@ -2,13 +2,17 @@
 
 [![Sync Wiki to Docs](https://github.com/Pact-Community-Organization/foundation/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/Pact-Community-Organization/foundation/actions/workflows/wiki-sync.yml)
 
-Welcome to the Pact Community Organization. This repository is the front door for our community’s smart contract libraries, documentation, and processes around building on Kadena.
+Welcome to the Pact Community Organization. This repository is the front door for our community’s smart contract libraries, documentation, and processes for working with Pact.
+
+NOTE: Canonical documentation and learning materials have been consolidated in the Pact-5 repository:
+
+- https://github.com/kda-community/pact-5
 
 ## Mission
-Make it easy and safe for businesses to start building on Kadena.
+Make it easy and safe for businesses to start building with Pact.
 
 ## Vision
-A thriving Kadena ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
+A trusted Pact ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
 
 ## Documentation & Links
 - Wiki (official documentation): https://github.com/Pact-Community-Organization/foundation/wiki
@@ -16,7 +20,7 @@ A thriving Kadena ecosystem where new and existing businesses can launch confide
 - Community Discussions: https://github.com/Pact-Community-Organization/foundation/discussions
 
 ## About This Repository
-This repo hosts the Foundation’s public documentation and coordination artifacts. It is the central place to learn about our mission, vision, roadmap, contribution guidelines, and how to participate in the Kadena Pact ecosystem.
+This repo hosts the Foundation’s public documentation and coordination artifacts. Core documentation has been centralized in the Pact-5 repository (link above); this repository will keep governance and foundation-specific coordination artifacts.
 
 ## Contributing
 We welcome contributors of all experience levels. Start with the Wiki’s Contribute page to learn how to propose changes, discuss ideas, and submit pull requests:

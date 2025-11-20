@@ -5,7 +5,7 @@ Briefly describe what this PR changes and why.
 Link to the related issue: #
 
 ## Checklist
-- [ ] Aligns with our mission (make it easy and safe to build on Kadena)
+- [ ] Aligns with our mission (make it easy and safe to build with Pact)
 - [ ] Clear description and scope
 - [ ] Documentation updated (if needed)
 - [ ] Tests or manual verification steps (if applicable)
