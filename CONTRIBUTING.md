@@ -1,7 +1,5 @@
 # Contributing to the Pact Community Organization
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 First off, thank you for considering contributing! Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop with Pact.
 =======
 First off, thank you for considering contributing! It's people like you that make the Pact ecosystem a great place. Your contributions are valuable and will help us achieve our mission of making it easy and safe for businesses and builders to develop with Pact.
