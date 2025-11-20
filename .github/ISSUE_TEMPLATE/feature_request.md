@@ -16,4 +16,4 @@ How does this help make it easy and safe for businesses to start building on Kad
 
 ## Links
 - Mission/Vision: See README
-- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Contribute
+- Contribution guidelines: https://github.com/Pact-Community-Organization/foundation/wiki/Contribute

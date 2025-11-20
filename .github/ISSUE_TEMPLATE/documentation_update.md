@@ -15,4 +15,4 @@ Does this make it easier and safer for builders on Kadena?
 
 ## Links
 - Mission/Vision: See README
-- Contribution guidelines: https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki/Contribute
+- Contribution guidelines: https://github.com/Pact-Community-Organization/foundation/wiki/Contribute

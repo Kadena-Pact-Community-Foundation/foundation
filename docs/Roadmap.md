@@ -1,6 +1,6 @@
-# Kadena Pact Community Foundation Roadmap
+# Pact Community Organization Roadmap
 
-This roadmap outlines the key milestones and priorities for the Kadena Pact Community Foundation. It helps contributors, adopters, and community members understand our focus and progress.
+This roadmap outlines the key milestones and priorities for the Pact Community Organization. It helps contributors, adopters, and community members understand our focus and progress.
 
 ---
 

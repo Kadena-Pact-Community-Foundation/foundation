@@ -1,4 +1,4 @@
-# Kadena Pact Community Foundation
+# Pact Community Organization
 
 Welcome. This is the official GitHub Pages site for our community foundation.
 
@@ -6,7 +6,7 @@ Welcome. This is the official GitHub Pages site for our community foundation.
 Make it easy and safe for businesses to start building on Kadena.
 
 ## Vision
-A Kadena environment where businesses start strong, using proven Pact contracts that are safe, reliable, and ready to deploy.
+A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
 
 ## Wiki Content
 - [Home](wiki-home.md)
@@ -17,6 +17,7 @@ A Kadena environment where businesses start strong, using proven Pact contracts 
 - [Contact / Community](Contact.md)
 
 ## Resources
-- [GitHub Repository](https://github.com/Kadena-Pact-Community-Foundation/foundation)
-- [Wiki](https://github.com/Kadena-Pact-Community-Foundation/foundation/wiki)
-- [Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions)
+- [GitHub Repository](https://github.com/Pact-Community-Organization/foundation)
+- [Wiki](https://github.com/Pact-Community-Organization/foundation/wiki)
+- [Discussions](https://github.com/Pact-Community-Organization/foundation/discussions)
+# Migration touch
