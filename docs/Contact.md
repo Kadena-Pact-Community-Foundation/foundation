@@ -11,6 +11,6 @@ For sensitive matters related to moderation or conduct, please open a private th
 
 ---
 
-Mission: Make it easy and safe for businesses to start building on Kadena.
+Mission: Make it easy and safe for businesses to start building with Pact.
 
-Vision: A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
+Vision: A trusted Pact ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.

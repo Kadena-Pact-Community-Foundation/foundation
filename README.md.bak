@@ -1,14 +1,14 @@
-# Kadena Pact Community Foundation
+# Pact Community Organization
 
 [![Sync Wiki to Docs](https://github.com/Pact-Community-Organization/foundation/actions/workflows/wiki-sync.yml/badge.svg)](https://github.com/Pact-Community-Organization/foundation/actions/workflows/wiki-sync.yml)
 
-Welcome to the Kadena Pact Community Foundation. This repository is the front door for our community’s smart contract libraries, documentation, and processes around building on Kadena.
+Welcome to the Pact Community Organization. This repository is the front door for our community’s smart contract libraries, documentation, and processes for working with Pact.
 
 ## Mission
-Make it easy and safe for businesses to start building on Kadena.
+Make it easy and safe for businesses to start building with Pact.
 
 ## Vision
-A thriving Kadena ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
+A thriving Pact ecosystem where new and existing businesses can launch confidently, supported by trusted, audited smart contracts and ready-to-use building blocks.
 
 ## Documentation & Links
 - Wiki (official documentation): https://github.com/Pact-Community-Organization/foundation/wiki
@@ -16,7 +16,7 @@ A thriving Kadena ecosystem where new and existing businesses can launch confide
 - Community Discussions: https://github.com/Pact-Community-Organization/foundation/discussions
 
 ## About This Repository
-This repo hosts the Foundation’s public documentation and coordination artifacts. It is the central place to learn about our mission, vision, roadmap, contribution guidelines, and how to participate in the Kadena Pact ecosystem.
+This repo hosts the Foundation’s public documentation and coordination artifacts. It is the central place to learn about our mission, vision, roadmap, contribution guidelines, and how to participate in the Pact ecosystem.
 
 ## Contributing
 We welcome contributors of all experience levels. Start with the Wiki’s Contribute page to learn how to propose changes, discuss ideas, and submit pull requests:

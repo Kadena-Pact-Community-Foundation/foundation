@@ -8,7 +8,7 @@ labels: documentation
 ## Description
 Briefly describe the docs change.
 
-Does this make it easier and safer for builders on Kadena?
+Does this make it easier and safer for builders with Pact?
 
 ## Checklist (optional)
 - [ ] Clear, simple, accurate
