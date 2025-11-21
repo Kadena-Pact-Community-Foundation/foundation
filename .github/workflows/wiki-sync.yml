@@ -96,7 +96,7 @@ jobs:
 
       - name: Create pull request for synced docs
         if: success()
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Sync Wiki content to Pages [automated]"
