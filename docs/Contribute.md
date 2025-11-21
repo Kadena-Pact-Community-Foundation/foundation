@@ -1,6 +1,6 @@
 # How to Contribute
 
-Welcome! Your contributions help the Pact Community Organization grow and improve. Whether you are a developer, auditor, or writer, there are many ways to participate.
+Welcome! Your contributions help the Kadena Pact Community Foundation grow and improve. Whether you are a developer, auditor, or writer, there are many ways to participate.
 
 ## Ways to Contribute
 1. **Submit Issues**
@@ -12,7 +12,7 @@ Welcome! Your contributions help the Pact Community Organization grow and improv
 4. **Create Templates or Starter Packs**
    - Help businesses get started faster with reusable contracts and blueprints.
 5. **Engage in Discussions**
-   - Join [GitHub Discussions](https://github.com/Pact-Community-Organization/foundation/discussions) to share ideas and ask questions.
+   - Join [GitHub Discussions](https://github.com/Kadena-Pact-Community-Foundation/foundation/discussions) to share ideas and ask questions.
 
 ## Contribution Guidelines
 - **Fork and Clone:** Work on your local copy of the repository.  
@@ -33,4 +33,4 @@ Welcome! Your contributions help the Pact Community Organization grow and improv
 
 ---
 
-*Thank you for helping us make it easy and safe for businesses to build on Kadena!*
+*Thank you for helping us make it easy and safe for businesses to build with Pact!* 

@@ -3,10 +3,10 @@
 Welcome. This is the official GitHub Pages site for our community foundation.
 
 ## Mission
-Make it easy and safe for businesses to start building on Kadena.
+Make it easy and safe for businesses to start building with Pact.
 
 ## Vision
-A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
+A trusted Pact ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
 
 ## Wiki Content
 - [Home](wiki-home.md)
@@ -20,4 +20,3 @@ A trusted Kadena ecosystem where businesses can confidently start using audited,
 - [GitHub Repository](https://github.com/Pact-Community-Organization/foundation)
 - [Wiki](https://github.com/Pact-Community-Organization/foundation/wiki)
 - [Discussions](https://github.com/Pact-Community-Organization/foundation/discussions)
-# Migration touch

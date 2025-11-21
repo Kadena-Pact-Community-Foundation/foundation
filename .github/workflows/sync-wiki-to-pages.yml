@@ -25,6 +25,9 @@ jobs:
       
       - name: Clone Wiki repository
         run: |
+          # If the wiki repo does not exist, skip sync
+          set -e
+          git ls-remote "https://github.com/${{ github.repository }}.wiki.git" >/dev/null 2>&1 || { echo "No wiki repository found for ${GITHUB_REPOSITORY}; skipping sync."; exit 0; }
           git clone https://github.com/${{ github.repository }}.wiki.git wiki-repo
       
       - name: Copy Wiki content to docs
@@ -65,10 +68,10 @@ jobs:
           Welcome. This is the official GitHub Pages site for our community foundation.
 
           ## Mission
-          Make it easy and safe for businesses to start building on Kadena.
+          Make it easy and safe for businesses to start building with Pact.
 
           ## Vision
-          A Kadena environment where businesses start strong, using proven Pact contracts that are safe, reliable, and ready to deploy.
+          A trusted Pact ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.
 
           ## Wiki Content
           - [Home](wiki-home.md)
@@ -79,9 +82,9 @@ jobs:
           - [Contact / Community](Contact.md)
 
           ## Resources
-          - [GitHub Repository](https://github.com/Pact-Community-Organization/foundation)
-          - [Wiki](https://github.com/Pact-Community-Organization/foundation/wiki)
-          - [Discussions](https://github.com/Pact-Community-Organization/foundation/discussions)
+          - [GitHub Repository](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/})
+          - [Wiki](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/}/wiki)
+          - [Discussions](https://github.com/${GITHUB_REPOSITORY_OWNER}/${GITHUB_REPOSITORY##*/}/discussions)
           EOF
       
       - name: Commit and push changes to sync branch

@@ -1,21 +1,21 @@
 # Welcome to the Pact Community Organization
 
 ## Mission
-**To make it easy and safe for businesses to start building on Kadena.**
+**To make it easy and safe for businesses to start building with Pact.**
 
 ## Vision
-**A trusted Kadena ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.**
+**A trusted Pact ecosystem where businesses can confidently start using audited, reliable open source Pact contracts.**
 
 ---
 
 ## About Us
-The Pact Community Organization is an open, community-driven initiative that empowers businesses and developers to start building on the Kadena blockchain safely and efficiently.  
+The Pact Community Organization is an open, community-driven initiative that empowers businesses and developers to start building with Pact smart contracts safely and efficiently.  
 We provide guidance, documentation, and resources to remove friction, reduce risks, and accelerate adoption of Pact smart contracts.
 
 ---
 
 ## Why Contribute?
-- **Help the Ecosystem Grow:** Your contributions directly enable businesses to adopt Kadena faster.  
+- **Help the Ecosystem Grow:** Your contributions directly enable businesses to adopt Pact faster.  
 - **Improve Security and Quality:** Participate in community audits and standards development.  
 - **Gain Recognition:** Become a trusted contributor in a transparent, open-source environment.  
 - **Learn and Collaborate:** Work with experts and peers in blockchain and smart contract development.
@@ -38,4 +38,4 @@ We provide guidance, documentation, and resources to remove friction, reduce ris
 
 ---
 
-*We are building a safe, open, and thriving ecosystem for everyone building on Kadena.*
+*We are building a safe, open, and thriving ecosystem for everyone building with Pact.*
