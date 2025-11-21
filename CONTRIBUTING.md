@@ -62,4 +62,4 @@ If you are looking for a place to start, check for issues tagged with `good firs
 
 If you have any questions, start with our [GitHub Discussions](https://github.com/Pact-Community-Organization/foundation/discussions) or check the `README.md` for community channels and contact points. We're here to help!
 
-If you prefer real-time conversation, feel free to join our [Community Discord](https://discord.gg/kadena) and ask in the relevant channels. We're here to help!
+If you prefer real-time conversation, feel free to join our [Community Discord](https://github.com/Pact-Community-Organization/foundation/discussions) and ask in the relevant channels. We're here to help!

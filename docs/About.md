@@ -1,6 +1,6 @@
 # About the Pact Community Organization
 
-NOTE: Canonical documentation and tutorials have been consolidated in the Pact-5 repository: https://github.com/kda-community/pact-5
+NOTE: Canonical documentation and tutorials have been consolidated in the Pact-5 repository: https://github.com/Pact-Community-Organization/pact-5
 
 Mission: Make it easy and safe for businesses to start building with Pact.
 
