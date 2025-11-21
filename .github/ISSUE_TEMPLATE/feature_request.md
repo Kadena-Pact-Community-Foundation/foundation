@@ -1,19 +1,9 @@
+---
 name: Feature request
-about: Suggest a new capability or improvement aligned with our mission
-labels: enhancement
+about: Suggest an idea for this project
+
 ---
 
-# Title
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-## Description
-Describe the feature and the problem it solves.
-
-How does this help make it easy and safe for businesses to start building with Pact?
-
-## Checklist
-- [ ] Aligns with mission and vision
-- [ ] Clear scope and outcome
-
-## Links
-- Mission/Vision: See README
-- Contribution guidelines: https://github.com/Pact-Community-Organization/foundation/wiki/Contribute
