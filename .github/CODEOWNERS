@@ -1,3 +1,11 @@
+# Foundation CODEOWNERS
+# Core maintainers own most files; security working group also owns security docs
+/docs/          @Pact-Community-Organization/core-maintainers
+*.md            @Pact-Community-Organization/core-maintainers
+SECURITY.md     @Pact-Community-Organization/security-wg @Pact-Community-Organization/core-maintainers
+/.github/       @Pact-Community-Organization/core-maintainers
+# Fallback
+*               @Pact-Community-Organization/core-maintainers
 ## CODEOWNERS for Wiki and Pages
 # GitHub Pages content (served from docs/)
 /docs/** @DaisukeFlowers
