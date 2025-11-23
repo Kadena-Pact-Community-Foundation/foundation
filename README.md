@@ -12,17 +12,20 @@ A vibrant Kadena ecosystem where builders confidently deploy trusted, reusable P
 
 ## Contents
 
-- **Governance**: Learn how decisions are made and roles are defined.
-- **Compliance**: Standards and processes for Pact development.
-- **Community**: How to get involved and contribute.
-- **Documentation**: Organizational policies and public-facing resources.
+- **Governance**: Learn how decisions are made and roles are defined in `governance/`.
+- **Policies**: Standards and processes for operations in `policies/`.
+- **Community**: How to get involved and contribute in `community/`.
+- **Documentation**: Organizational policies and public-facing resources in `docs/`.
 
 ## Repository Structure
 
-- `docs/`: Public documentation for GitHub Pages.
-- `governance/`: Governance and decision-making processes.
-- `policies/`: Compliance and operational policies.
-- `community/`: Contribution guidelines and community resources.
+- `docs/`: Public documentation and GitHub Pages site.
+- `governance/`: Governance documents, maintainers, and decision-making processes.
+- `policies/`: Security, support, funding, and operational policies.
+- `community/`: Contribution guidelines and code of conduct.
+- `foundation.wiki/`: Wiki content for the organization.
+- `wiki/`: Additional wiki resources.
+- `.github/`: GitHub workflows and templates.
 
 ## Onboarding and Maintenance
 
@@ -30,7 +33,7 @@ See the docs and wiki for onboarding and maintenance instructions.
 
 ## Get Involved
 
-We welcome contributions from the community! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to get started.
+We welcome contributions from the community! Please see our [CONTRIBUTING.md](community/CONTRIBUTING.md) for details on how to get started.
 
 ## License
 
