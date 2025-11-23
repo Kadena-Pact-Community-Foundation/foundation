@@ -5,10 +5,7 @@ on:
   gollum:
   # Allow manual triggering
   workflow_dispatch:
-  # Run on push to main branch (to keep in sync)
-  push:
-    branches:
-      - main
+  # Removed push to main to avoid conflicts with file-controlled sync
 
 jobs:
   sync-wiki:

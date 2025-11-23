@@ -1,0 +1,54 @@
+name: Sync Files to Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'wiki/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-to-wiki:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Clone Wiki repository
+        run: |
+          # If the wiki repo does not exist, skip sync
+          set -e
+          git ls-remote "https://github.com/${{ github.repository }}.wiki.git" >/dev/null 2>&1 || { echo "No wiki repository found for ${GITHUB_REPOSITORY}; skipping sync."; exit 0; }
+          git clone "https://github.com/${{ github.repository }}.wiki.git" wiki-repo
+      
+      - name: Copy content from wiki/ to Wiki repo
+        run: |
+          cd wiki-repo
+          # Remove existing .md files
+          rm -f *.md
+          # Copy from the main repo's wiki/ directory
+          cp ../wiki/*.md ./
+      
+      - name: Commit and push changes to Wiki
+        run: |
+          cd wiki-repo
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add .
+            git commit -m "Sync content from foundation repo [automated]"
+            git push origin master
+            echo "Synced wiki content from foundation repo"
+          fi
