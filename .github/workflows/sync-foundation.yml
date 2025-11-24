@@ -22,7 +22,7 @@ jobs:
           cp SECURITY.md deploy/SECURITY.md || true
 
       - name: Create PR to target repos
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs')
