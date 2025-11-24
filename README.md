@@ -10,6 +10,8 @@ To make it easy and safe for businesses to start building with smart contracts.
 
 A vibrant blockchain ecosystem where builders confidently deploy trusted, reusable smart contracts maintained by a transparent, community-driven, nonprofit organization.
 
+We're just getting started - join us in building this vision!
+
 ## Contents
 
 - **Governance**: Learn how decisions are made and roles are defined in `governance/`.
