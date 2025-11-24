@@ -44,6 +44,8 @@ We're looking for passionate developers and community members to help build the 
 ## Contact
 
 - **GitHub Issues**: For bugs, features, and general discussion
+- **Twitter**: [@PactCommOrg](https://twitter.com/PactCommOrg) for announcements and updates
+- **Telegram**: [t.me/PactCommunityOrg](https://t.me/PactCommunityOrg) for community chat
 - **Documentation**: See our [foundation docs](https://github.com/Pact-Community-Organization/foundation) for guides and processes
 - **Onboarding**: New members should read [ONBOARDING.md](https://github.com/Pact-Community-Organization/foundation/blob/main/docs/ONBOARDING.md)
 

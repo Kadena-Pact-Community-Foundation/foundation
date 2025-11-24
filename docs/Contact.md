@@ -6,6 +6,8 @@ We coordinate openly through GitHub.
 - [Issues](https://github.com/Pact-Community-Organization/foundation/issues) (bugs, requests, tasks)
 - [Pages](https://www.pact-community.org/) (public site)
 - [Wiki](https://github.com/Pact-Community-Organization/foundation/wiki) (documentation)
+- [Twitter](https://twitter.com/PactCommOrg) (announcements and updates)
+- [Telegram](https://t.me/PactCommunityOrg) (community chat)
 
 For sensitive matters related to moderation or conduct, please open a private thread with a maintainer via GitHub.
 

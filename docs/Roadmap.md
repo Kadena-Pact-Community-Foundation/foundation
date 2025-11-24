@@ -18,7 +18,7 @@ This roadmap outlines the key milestones and priorities for the Pact Community O
 - ✅ Launch GitHub Discussions with categories: Questions, Ideas, Proposals
 - ✅ Add issue and pull request templates
 - ✅ Set up basic community governance framework
-- 🔄 Promote channels for community engagement (Discord, social links)
+- 🔄 Promote channels for community engagement (Twitter, Telegram, social links)
 
 ---
 
